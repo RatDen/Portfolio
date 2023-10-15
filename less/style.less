@@ -718,6 +718,9 @@ strong {
 			height: 0;
 			padding: 0;
 		}
+		.button {
+			margin-top: 0.5rem;
+		}
 	}
 	.servises-footer {
 		justify-content: end;
@@ -757,6 +760,7 @@ strong {
 			display: flex;
 			flex-wrap: wrap;
 			align-items: center;
+			justify-content: center;
 			margin-left: 1rem;
 			margin-right: 1rem;
 			.icon {
@@ -783,6 +787,9 @@ strong {
 			align-content: center;
 			margin: 0;
 		}
+	}
+	.button {
+		min-width: 15rem;
 	}
 } /*.menu-modal*/
 
@@ -1049,6 +1056,10 @@ strong {
 					background-color: transparent;				
 				}
 			}
+			&-closed {
+				height: 0;
+				padding: 0;
+			}
 		}
 		.contacts-footer-wrap {
 			opacity: 0;
@@ -1106,6 +1117,11 @@ strong {
 			width: 100%;
 		}
 	}
+	.menu-modal-footer {
+		.button {
+			padding: 0;
+		}
+	}
 }
 
 @media (max-width: 600px) {
@@ -1117,9 +1133,6 @@ strong {
 				width: 100%;
 			}
 		}
-		.button {
-			padding: 0 .6rem;
-		}
 	}
 }
 
@@ -1129,7 +1142,18 @@ strong {
 	}
 }
 
-@media (max-width: 380px) {
+@media (max-width: 390px) {
+	.menu-modal-footer {
+		.footer-text {
+			overflow: hidden;
+			height: 0;
+		}
+		.button {
+			padding: 0.5rem 0;
+			min-width: 12rem;
+			font-size: 1.6rem;
+		}
+	}
 	.slogan {
 		font-size: 3.3rem;
 	}

@@ -809,6 +809,9 @@ strong {
   height: 0;
   padding: 0;
 }
+.menu-modal-content .button {
+  margin-top: 0.5rem;
+}
 .menu-modal .servises-footer {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -863,6 +866,9 @@ strong {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-left: 1rem;
   margin-right: 1rem;
 }
@@ -895,6 +901,9 @@ strong {
   -ms-flex-line-pack: center;
       align-content: center;
   margin: 0;
+}
+.menu-modal .button {
+  min-width: 15rem;
 }
 /*.menu-modal*/
 .contacts-form {
@@ -1160,6 +1169,10 @@ strong {
     border-radius: .7rem;
     background-color: transparent;
   }
+  .menu-modal-content-closed {
+    height: 0;
+    padding: 0;
+  }
   .menu-modal .contacts-footer-wrap {
     opacity: 0;
   }
@@ -1211,6 +1224,9 @@ strong {
     margin: 1.5rem 0;
     width: 100%;
   }
+  .menu-modal-footer .button {
+    padding: 0;
+  }
 }
 @media (max-width: 600px) {
   .menu-modal-footer .wrap {
@@ -1222,16 +1238,22 @@ strong {
     text-align: center;
     width: 100%;
   }
-  .menu-modal-footer .button {
-    padding: 0 .6rem;
-  }
 }
 @media (max-width: 450px) {
   .slogan {
     font-size: 4rem;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 390px) {
+  .menu-modal-footer .footer-text {
+    overflow: hidden;
+    height: 0;
+  }
+  .menu-modal-footer .button {
+    padding: 0.5rem 0;
+    min-width: 12rem;
+    font-size: 1.6rem;
+  }
   .slogan {
     font-size: 3.3rem;
   }
