@@ -361,7 +361,6 @@ strong {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 5px;
-  width: 20.7rem;
   /*.menu-item-hover*/
   /*.menu-item-active*/
   /*.menu-item-toggler*/
@@ -515,7 +514,7 @@ strong {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   height: 4rem;
-  width: 93%;
+  width: 17.5rem;
   padding: 0;
   opacity: 80%;
   background-color: transparent;
@@ -693,6 +692,7 @@ strong {
           box-shadow: 0 0 1.5rem #ffa853;
 }
 .menu-modal {
+  z-index: 1;
   position: absolute;
   top: 50%;
   left: 5%;
@@ -1250,7 +1250,6 @@ strong {
     height: 0;
   }
   .menu-modal-footer .button {
-    padding: 0.5rem 0;
     min-width: 12rem;
     font-size: 1.6rem;
   }
