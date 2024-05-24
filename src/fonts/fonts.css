@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Rollbox-Bold";
+  src: url("Rollbox-Bold.woff2") format("woff2"),
+    url("Rollbox-Bold.woff") format("woff"),
+    url("Rollbox-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rollbox-BoldItalic";
+  src: url("Rollbox-BoldItalic.woff2") format("woff2"),
+    url("Rollbox-BoldItalic.woff") format("woff"),
+    url("Rollbox-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Conthrax";
+  src: url("Conthrax-Regular.woff2") format("woff2"),
+    url("Conthrax-Regular.woff") format("woff"),
+    url("Conthrax-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "StarShineMF";
+  src: url("StarShineMF.woff2") format("woff2"),
+    url("StarShineMF.woff") format("woff"),
+    url("StarShineMF.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
