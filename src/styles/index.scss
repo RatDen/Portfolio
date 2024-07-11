@@ -1,0 +1,90 @@
+@import '../fonts/fonts.scss';
+
+:root {
+	font-family: 'Rollbox-Bold', 'Conthrax', sans-serif;
+
+	color-scheme: dark light;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	--main-theme-color: #1ecaf2;
+	--main-shadow-color: #55d9f9;
+	--main-theme-bg-soft-color: rgba(
+		64,
+		190,
+		221,
+		0.5
+	); /* --main-theme-color + opacity: 50% */
+	--main-theme-bg-hard-color: rgba(
+		64,
+		190,
+		221,
+		0.7
+	); /* --main-theme-color + opacity: 70% */
+	--main-theme-bg-dense-color: rgba(
+		64,
+		190,
+		221,
+		0.95
+	); /* --main-theme-color + opacity: 95% */
+
+	--accent-color: #ff8b19;
+	--accent-shadow-color: #ffa853;
+
+	--active-color: #18f653;
+	--active-shadow-color: #51fb7e;
+
+	--button-color: var(--main-theme-color);
+	--button-text-color: var(--button-color);
+	--button-shadow: var(--main-shadow-color);
+
+	--animation-timer-turn-on: 1.7s;
+	--animation-timer-turn-off: 0.18s;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+picture {
+	margin: 0;
+	padding: 0;
+}
+
+button,
+a {
+	color: currentColor;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	cursor: pointer;
+}
+
+button {
+	padding: 0;
+}

@@ -1,0 +1,1 @@
+export { StarWarsScroller } from './StarWarsScroller';

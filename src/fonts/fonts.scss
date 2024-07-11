@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'Rollbox-Bold';
+	src: url('$fonts/RollBox/Rollbox-Bold.woff2') format('woff2'),
+		url('$fonts/RollBox/Rollbox-Bold.woff') format('woff'),
+		url('$fonts/RollBox/Rollbox-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Rollbox-BoldItalic';
+	src: url('$fonts/RollBox/Rollbox-BoldItalic.woff2') format('woff2'),
+		url('$fonts/RollBox/Rollbox-BoldItalic.woff') format('woff'),
+		url('$fonts/RollBox/Rollbox-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Conthrax';
+	src: url('$fonts/Conthrax/Conthrax-Regular.woff2') format('woff2'),
+		url('$fonts/Conthrax/Conthrax-Regular.woff') format('woff'),
+		url('$fonts/Conthrax/Conthrax-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'StarShineMF';
+	src: url('$fonts/StarShine/StarShineMF.woff2') format('woff2'),
+		url('$fonts/StarShine/StarShineMF.woff') format('woff'),
+		url('$fonts/StarShine/StarShineMF.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
