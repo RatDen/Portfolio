@@ -9,6 +9,36 @@ export type TPortfolioItems = TPortfolioItem[];
 
 export const PortfolioItems: TPortfolioItems = [
 	{
+		title: 'Проектная работа Яндекс Практикум',
+		url: 'https://ratden.github.io/stellar-burgers/',
+		img: 'https://sun9-23.userapi.com/s/v1/ig2/dHc_LuOx_41DeRjBzSOGQhWO6FGXr1raYHh3-NG22fK9PwtCdqieCjZuydF4Kpc8vRUQuy7sD5ZtvKw_Mda6M161.jpg?quality=95&crop=0,12,1593,1198&as=32x24,48x36,72x54,108x81,160x120,240x180,360x271,480x361,540x406,640x481,720x541,1080x812,1280x963,1440x1083,1593x1198&from=bu&cs=1280x963',
+		alt: 'Скриншот работы',
+		description: [
+			'Работа выполнена на React + TypeScript',
+			'Хранение данных реализовано с помощью Redux',
+			'Настроена работа с access и refresh токенами',
+			'Настроена маршрутизация с помощью React Router',
+			'Написаны тесты для слайсов с помощью Jest и интеграционные тесты для страницы конструктора с помощью Cypress',
+			'В приложении имеется возможность заходить в личный кабинет и смотреть историю заказов',
+			'Так же можно посмотреть все заказы во вкладке ленты заказов',
+			'Реализована возможность сборки и заказа бургера',
+			'В редакторе заказа можно перемещать и удалять ингредиенты',
+		],
+	},
+	{
+		title: 'Тестовое задание FrameWork-Team',
+		url: 'https://ratden.github.io/FrameworkTeam-test/',
+		img: 'https://sun9-14.userapi.com/s/v1/ig2/iMAC2fnoYmX9ySvH0IgJKp1gY-tKNhNaSQ-lZQJevcHo21XZBt6-X5Ddo76Smw_Y15ib6m915JIBu43vVo7v9GYF.jpg?quality=95&crop=66,0,1279,719&as=32x18,48x27,72x40,108x61,160x90,240x135,360x202,480x270,540x304,640x360,720x405,1080x607,1279x719&from=bu&cs=1080x607',
+		alt: 'Скриншот работы',
+		description: [
+			'Работа выполнена на React + TypeScript',
+			'Использовался Redux toolkit совместно с RTK query',
+			'Использовались: ESLint с настройками Airbnb, Prettier для автоматического форматирования файлов кода и стилей, PostCSS sorting для сортировки свойств стилей',
+			'Сборщик - Vite',
+			'Основной функционал: просмотр картин с функцией поиска и фильтрации; реализована смена темы (темная и светлая); реализована пагинация с помощью React-Paginate',
+		],
+	},
+	{
 		title: 'Десятая практическая работа Яндекс Практикум',
 		url: 'https://ratden.github.io/blog-customizer/',
 		img: 'https://sun9-40.userapi.com/impg/0--mlGe9Rgt_6D0VW1BBCoTl0cN5fdAJ8SUpew/8T7XFzATp7w.jpg?size=2533x1234&quality=95&sign=f34891d9cd12ee0a0467d595688ca9e8&type=album',
